@@ -1,0 +1,88 @@
+--1--
+
+ CREATE TABLE employee (
+
+ 	id SERIAL PRIMARY KEY NOT NULL,
+	first_name VARCHAR(50),
+ 	last_name VARCHAR(50),
+	email VARCHAR(100),
+ 	birthday DATE
+ );
+
+--2--
+
+insert into employee (first_name, last_name, email, birthday) values ('Wilow', 'Boxe', 'wboxe0@yale.edu', '2021-06-02');
+insert into employee (first_name, last_name, email, birthday) values ('Gardner', 'Bruni', 'gbruni1@qq.com', '2020-11-06');
+insert into employee (first_name, last_name, email, birthday) values ('Even', 'Cromwell', 'ecromwell2@cnbc.com', '2021-05-23');
+insert into employee (first_name, last_name, email, birthday) values ('Asher', 'Challenor', 'achallenor3@google.de', '2021-04-05');
+insert into employee (first_name, last_name, email, birthday) values ('Ardella', 'Martensen', 'amartensen4@latimes.com', '2020-09-20');
+insert into employee (first_name, last_name, email, birthday) values ('Quincey', 'Pateman', 'qpateman5@lycos.com', '2021-01-13');
+insert into employee (first_name, last_name, email, birthday) values ('Jodie', 'Brisson', 'jbrisson6@unc.edu', '2020-09-08');
+insert into employee (first_name, last_name, email, birthday) values ('Trever', 'Commusso', 'tcommusso7@over-blog.com', '2020-09-10');
+insert into employee (first_name, last_name, email, birthday) values ('Bordie', 'Redhills', 'bredhills8@comcast.net', '2021-04-26');
+insert into employee (first_name, last_name, email, birthday) values ('Editha', 'Lafferty', 'elafferty9@hud.gov', '2020-10-16');
+insert into employee (first_name, last_name, email, birthday) values ('Kandace', 'Wilderspoon', 'kwilderspoona@whitehouse.gov', '2020-07-31');
+insert into employee (first_name, last_name, email, birthday) values ('Modestia', 'Maciejewski', 'mmaciejewskib@typepad.com', '2020-09-22');
+insert into employee (first_name, last_name, email, birthday) values ('Eal', 'Thurner', 'ethurnerc@digg.com', '2021-01-22');
+insert into employee (first_name, last_name, email, birthday) values ('Armand', 'Blackborne', 'ablackborned@cocolog-nifty.com', '2020-10-03');
+insert into employee (first_name, last_name, email, birthday) values ('Lavinia', 'Nimmo', 'lnimmoe@taobao.com', '2021-02-07');
+insert into employee (first_name, last_name, email, birthday) values ('Nissa', 'Prawle', 'nprawlef@vimeo.com', '2020-11-22');
+insert into employee (first_name, last_name, email, birthday) values ('Dniren', 'Ellar', 'dellarg@fotki.com', '2020-09-16');
+insert into employee (first_name, last_name, email, birthday) values ('Masha', 'Furlong', 'mfurlongh@accuweather.com', '2021-01-17');
+insert into employee (first_name, last_name, email, birthday) values ('Dolli', 'Tidbury', 'dtidburyi@pcworld.com', '2021-02-08');
+insert into employee (first_name, last_name, email, birthday) values ('Jerome', 'Gartsyde', 'jgartsydej@shareasale.com', '2021-05-04');
+insert into employee (first_name, last_name, email, birthday) values ('Tina', 'Leggott', 'tleggottk@dion.ne.jp', '2020-11-22');
+insert into employee (first_name, last_name, email, birthday) values ('Wilhelmina', 'Spada', 'wspadal@tmall.com', '2021-05-20');
+insert into employee (first_name, last_name, email, birthday) values ('Glenn', 'Tompsett', 'gtompsettm@themeforest.net', '2021-03-23');
+insert into employee (first_name, last_name, email, birthday) values ('Niccolo', 'Dominichetti', 'ndominichettin@stumbleupon.com', '2020-08-25');
+insert into employee (first_name, last_name, email, birthday) values ('Denys', 'Haselwood', 'dhaselwoodo@home.pl', '2021-03-29');
+insert into employee (first_name, last_name, email, birthday) values ('Robinson', 'Dingate', 'rdingatep@icq.com', '2021-03-15');
+insert into employee (first_name, last_name, email, birthday) values ('Becki', 'De Cristoforo', 'bdecristoforoq@symantec.com', '2021-01-28');
+insert into employee (first_name, last_name, email, birthday) values ('Oswald', 'Pyvis', 'opyvisr@booking.com', '2020-09-18');
+insert into employee (first_name, last_name, email, birthday) values ('Beatrice', 'McWhorter', 'bmcwhorters@tuttocitta.it', '2021-05-07');
+insert into employee (first_name, last_name, email, birthday) values ('Myrna', 'Mc Meekan', 'mmcmeekant@statcounter.com', '2021-04-22');
+insert into employee (first_name, last_name, email, birthday) values ('Paige', 'Kretschmer', 'pkretschmeru@ftc.gov', '2020-09-05');
+insert into employee (first_name, last_name, email, birthday) values ('Brandon', 'Goricke', 'bgorickev@foxnews.com', '2020-09-21');
+insert into employee (first_name, last_name, email, birthday) values ('Carlita', 'Danton', 'cdantonw@mozilla.com', '2020-12-28');
+insert into employee (first_name, last_name, email, birthday) values ('Brnaba', 'Zecchi', 'bzecchix@dailymail.co.uk', '2021-04-07');
+insert into employee (first_name, last_name, email, birthday) values ('Bennie', 'Parysowna', 'bparysownay@umich.edu', '2020-11-17');
+insert into employee (first_name, last_name, email, birthday) values ('Bird', 'Fedder', 'bfedderz@ifeng.com', '2021-07-02');
+insert into employee (first_name, last_name, email, birthday) values ('Alvin', 'Kiehl', 'akiehl10@paginegialle.it', '2021-01-29');
+insert into employee (first_name, last_name, email, birthday) values ('Ave', 'Dictus', 'adictus11@webmd.com', '2020-08-16');
+insert into employee (first_name, last_name, email, birthday) values ('Daisie', 'Rowden', 'drowden12@webs.com', '2020-11-10');
+insert into employee (first_name, last_name, email, birthday) values ('Laurie', 'Parlor', 'lparlor13@hugedomains.com', '2020-07-28');
+insert into employee (first_name, last_name, email, birthday) values ('Jehanna', 'Eirwin', 'jeirwin14@theguardian.com', '2021-02-24');
+insert into employee (first_name, last_name, email, birthday) values ('Deck', 'Rushsorth', 'drushsorth15@bravesites.com', '2020-11-09');
+insert into employee (first_name, last_name, email, birthday) values ('Karry', 'Tremouille', 'ktremouille16@nhs.uk', '2020-10-21');
+insert into employee (first_name, last_name, email, birthday) values ('Levin', 'Rubenfeld', 'lrubenfeld17@vimeo.com', '2020-12-04');
+insert into employee (first_name, last_name, email, birthday) values ('Dillon', 'Lashley', 'dlashley18@geocities.jp', '2021-01-22');
+insert into employee (first_name, last_name, email, birthday) values ('Serge', 'Davidavidovics', 'sdavidavidovics19@vk.com', '2020-07-27');
+insert into employee (first_name, last_name, email, birthday) values ('Kale', 'Bramsom', 'kbramsom1a@people.com.cn', '2021-03-03');
+insert into employee (first_name, last_name, email, birthday) values ('Melodie', 'Cecchetelli', 'mcecchetelli1b@angelfire.com', '2021-05-14');
+insert into employee (first_name, last_name, email, birthday) values ('Sayer', 'Garret', 'sgarret1c@studiopress.com', '2021-02-05');
+insert into employee (first_name, last_name, email, birthday) values ('Kristoforo', 'Minter', 'kminter1d@feedburner.com', '2021-05-03');
+
+--3--
+UPDATE employee
+SET first_name ='xxx'
+WHERE id=1
+
+UPDATE employee
+SET last_name ='yyy'
+WHERE first_name='xxx'
+
+UPDATE employee
+SET email='xxx@yyy.com'
+WHERE last_name ='yyy'
+
+--4--
+DELETE FROM employee
+WHERE id=5
+
+DELETE FROM employee
+WHERE email='xxx@yyy.com'
+
+DELETE FROM employee
+WHERE first_name='Gardner'
+
+
