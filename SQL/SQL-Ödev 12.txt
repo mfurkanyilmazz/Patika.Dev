@@ -1,0 +1,25 @@
+--1--
+ SELECT COUNT(title) FROM film
+ WHERE length > 
+(
+ SELECT AVG(length) FROM film
+)
+
+--2--
+SELECT COUNT(rental_rate) FROM film
+WHERE rental_rate =
+(
+SELECT MAX(rental_rate) FROM film
+)
+
+--3--
+SELECT title,rental_rate,replacement_cost FROM film
+WHERE rental_rate = (SELECT MIN(rental_rate) FROM film) AND replacement_cost=(SELECT MIN(replacement_cost) FROM film)
+ORDER BY title
+
+--4--
+SELECT customer.customer_id, first_name, last_name, COUNT(amount) AS Alışveriş_Sayısı FROM payment
+JOIN customer ON customer.customer_id = payment.customer_id
+GROUP BY customer.customer_id, first_name, last_name
+ORDER BY COUNT(amount) DESC
+
