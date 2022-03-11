@@ -1,0 +1,2 @@
+# PatikaDev
+ Proje ve Odevler
